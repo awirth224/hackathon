@@ -1,4 +1,4 @@
-let attractions = [
+let disneyRides = [
   {
     name:"Astro Orbiter",
     category: "ride",
@@ -225,7 +225,7 @@ let attractions = [
     location: "Tomorrowland",
     openVeryMerry: true,
     openNotSoScary: true,
-    wheelchairTransfer: falsee
+    wheelchairTransfer: false
   },
   {
     name:"Peter Pan's Flight",
@@ -396,3 +396,5 @@ let attractions = [
     wheelchairTransfer: false
   }
 ]
+
+export default disneyRides
