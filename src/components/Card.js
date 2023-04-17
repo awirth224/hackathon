@@ -1,6 +1,7 @@
 import Image from "next/legacy/image";
 import disneyRides from '../../data';
 import { AiOutlineHeart } from 'react-icons/ai'
+import Link from "next/link";
 
 const Card = () => {
 

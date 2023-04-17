@@ -1,8 +1,11 @@
 import Card from '@/components/Card'
 import Header from '@/components/Header'
 import Head from 'next/head'
+import { useState, useEffect } from 'react'
 
 export default function Attractions() {
+  const [favorites, setFavorites] = useState([])
+  
   return (
     <div>
       <Head>

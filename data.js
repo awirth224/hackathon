@@ -1,5 +1,6 @@
 let disneyRides = [
   {
+    id: 1,
     name:"Astro Orbiter",
     category: "ride",
     description: "Rockets revolving around a central axis",
@@ -12,6 +13,7 @@ let disneyRides = [
     wheelchairTransfer: true
   },
   {
+    id: 2,
     name:"Barnstormer",
     category: "ride",
     description: "Junior roller coaster",
@@ -24,6 +26,7 @@ let disneyRides = [
     wheelchairTransfer: true
   },
   {
+    id: 3,
     name:"Big Thunder Mountain Railroad",
     category: "ride",
     description: "Tame, western mining themed roller coaster",
@@ -36,6 +39,7 @@ let disneyRides = [
     wheelchairTransfer: true
   },
   {
+    id: 4,
     name:"Buzz Lightyear's Space Ranger Spin",
     category: "ride",
     description: "Whimsical space travel-themed indoor ride",
@@ -48,6 +52,7 @@ let disneyRides = [
     wheelchairTransfer: true
   },
   {
+    id: 5,
     name:"Casey Jr. Splash 'N' Soak Station",
     category: "water play area",
     description: "Opportunity to get wet",
@@ -60,6 +65,7 @@ let disneyRides = [
     wheelchairTransfer: true
   },
   {
+    id: 6,
     name:"Country Bear Jamboree",
     category: "show",
     description: "Audioanimatronic country-hoedown theater show",
@@ -72,6 +78,7 @@ let disneyRides = [
     wheelchairTransfer: false
   },
   {
+    id: 7,
     name:"Dumbo the Flying Elephant",
     category: "ride",
     description: "",
@@ -84,6 +91,7 @@ let disneyRides = [
     wheelchairTransfer: true
   },
   {
+    id: 8,
     name:"Enchanted Tales with Belle",
     category: "show",
     description: "Interactive Character Show",
@@ -96,6 +104,7 @@ let disneyRides = [
     wheelchairTransfer: false
   },
   {
+    id: 9,
     name:"Frontierland Shootin' Arcade",
     category: "arcade",
     description: "Electronic shooting gallery",
@@ -108,6 +117,7 @@ let disneyRides = [
     wheelchairTransfer: false
   },
   {
+    id: 10,
     name:"The Hall of Presidents",
     category: "show",
     description: "Audioanimatronic historical theater presentation",
@@ -120,6 +130,7 @@ let disneyRides = [
     wheelchairTransfer: false
   },
   {
+    id: 11,
     name:"The Haunted Mansion",
     category: "ride",
     description: "Haunted house dark ride",
@@ -132,6 +143,7 @@ let disneyRides = [
     wheelchairTransfer: true
   },
   {
+    id: 12,
     name:"it's a small world",
     category: "ride",
     description: "World-brotherhood-themed indoor boat ride",
@@ -144,6 +156,7 @@ let disneyRides = [
     wheelchairTransfer: true
   },
   {
+    id: 13,
     name:"Jungle Cruise",
     category: "ride",
     description: "Outdoor safari-themed boat-ride adventure",
@@ -156,6 +169,7 @@ let disneyRides = [
     wheelchairTransfer: false
   },
   {
+    id: 14,
     name:"Liberty Square Riverboat",
     category: "ride",
     description: "Outdoor scenic boat ride",
@@ -168,6 +182,7 @@ let disneyRides = [
     wheelchairTransfer: false
   },
   {
+    id: 15,
     name:"Mad Tea Party",
     category: "ride",
     description: "Midway-type spinning ride",
@@ -180,6 +195,7 @@ let disneyRides = [
     wheelchairTransfer: true
   },
   {
+    id: 16,
     name:"The Magic Carpets of Aladdin",
     category: "ride",
     description: "Elaborate midway ride",
@@ -192,6 +208,7 @@ let disneyRides = [
     wheelchairTransfer: true
   },
   {
+    id: 17,
     name:"The Many Adventures of Winnie the Pooh",
     category: "ride",
     description: "Indoor track ride",
@@ -204,6 +221,7 @@ let disneyRides = [
     wheelchairTransfer: true
   },
   {
+    id: 18,
     name:"Mickey's PhilharMagic",
     category: "show",
     description: "3-D movie",
@@ -216,6 +234,7 @@ let disneyRides = [
     wheelchairTransfer: false
   },
   {
+    id: 19,
     name:"Monsters Inc. Laugh Floor",
     category: "show",
     description: "Interactive animated comedy routines",
@@ -228,6 +247,7 @@ let disneyRides = [
     wheelchairTransfer: false
   },
   {
+    id: 20,
     name:"Peter Pan's Flight",
     category: "ride",
     description: "Indoor track ride",
@@ -240,6 +260,7 @@ let disneyRides = [
     wheelchairTransfer: true
   },
   {
+    id: 21,
     name:"Pirates of the Caribbean",
     category: "ride",
     description: "Indoor pirate-themed boat ride",
@@ -252,6 +273,7 @@ let disneyRides = [
     wheelchairTransfer: true
   },
   {
+    id: 22,
     name:"Prince Charming Regal Carrousel",
     category: "ride",
     description: "Merry-go-round",
@@ -264,6 +286,7 @@ let disneyRides = [
     wheelchairTransfer: true
   },
   {
+    id: 23,
     name:"Seven Dwarfs Mine Train",
     category: "ride",
     description: "Indoor/outdoor roller coaster",
@@ -276,6 +299,7 @@ let disneyRides = [
     wheelchairTransfer: true
   },
   {
+    id: 24,
     name:"Space Mountain",
     category: "ride",
     description: "Roller coaster in the dark",
@@ -288,6 +312,7 @@ let disneyRides = [
     wheelchairTransfer: true
   },
   {
+    id: 25,
     name:"Swiss Family Treehouse",
     category: "walkthrough",
     description: "Outdoor walk-through treehouse",
@@ -300,6 +325,7 @@ let disneyRides = [
     wheelchairTransfer: true
   },
   {
+    id: 26,
     name:"Tom Sawyer Island",
     category: "ride",
     description: "Outdoor walk-through exhibit and rustic playground",
@@ -312,6 +338,7 @@ let disneyRides = [
     wheelchairTransfer: true
   },
   {
+    id: 27,
     name:"Tomorrowland Speedway",
     category: "ride",
     description: "Drive-'em yourself miniature cars",
@@ -324,6 +351,7 @@ let disneyRides = [
     wheelchairTransfer: true
   },
   {
+    id: 28,
     name:"Tomorrowland Transit Authority PeopleMover",
     category: "ride",
     description: "Scenic tour of Tomorrowland",
@@ -336,6 +364,7 @@ let disneyRides = [
     wheelchairTransfer: true
   },
   {
+    id: 29,
     name:"TRON Lightcycle/Run",
     category: "ride",
     description: "A fast, indoor/outdoor rollercoaster",
@@ -348,6 +377,7 @@ let disneyRides = [
     wheelchairTransfer: true
   },
   {
+    id: 30,
     name:"Under the Sea - Journey of The Little Mermaid",
     category: "ride",
     description: "Track ride in the dark",
@@ -360,6 +390,7 @@ let disneyRides = [
     wheelchairTransfer: true
   },
   {
+    id: 31,
     name:"Walt Disney World Railroad",
     category: "ride",
     description: "Scenic railroad ride around the perimeter of the Magic Kingdom, and transportation to Frontierland and Fantasyland",
@@ -372,6 +403,7 @@ let disneyRides = [
     wheelchairTransfer: true
   },
   {
+    id: 32,
     name:"Walt Disney's Carousel of Progress",
     category: "show",
     description: "Audioanimatronic theater production",
@@ -384,6 +416,7 @@ let disneyRides = [
     wheelchairTransfer: false
   },
   {
+    id: 33,
     name:"Walt Disney's Enchanted Tiki Room",
     category: "show",
     description: "Audioanimatronic Pacific- island musical-theater show",

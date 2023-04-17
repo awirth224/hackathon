@@ -6,7 +6,7 @@ const Header = () => {
       <Link href="/">
         <h1 className="text-3xl">Disney Made Easy</h1>
       </Link>
-      <Link href="/">
+      <Link href="/favorites">
         <img 
           src="/headshot.png"
           alt="user-image" 
