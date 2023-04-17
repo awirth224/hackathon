@@ -1,9 +1,9 @@
 import Image from "next/legacy/image";
 import disneyRides from '../../data';
-import { AiOutlineHeart } from 'react-icons/ai'
+import { AiOutlineHeart, AiFillDelete } from 'react-icons/ai'
 import Link from "next/link";
 
-const Card = () => {
+const Card = ({setFavorites}) => {
 
     const rideDetails = disneyRides.map((ride) => {
         return(
@@ -20,7 +20,7 @@ const Card = () => {
                     <p>{ride.description}</p>
                     <p>{ride.location}</p>
                 </div>
-                <AiOutlineHeart />
+                <AiOutlineHeart onClick={() => setFavorites(ride)}/>
             </div>
         )
     })

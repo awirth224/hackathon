@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react'
 
 export default function Attractions() {
   const [favorites, setFavorites] = useState([])
-  
+  const handleClick = (ride) => setFavorites([...favorites, ride])
   return (
     <div>
       <Head>
@@ -15,7 +15,7 @@ export default function Attractions() {
       </Head>
       <Header/>
       <div className="bg-gray-700 text-gray-200 p-5 gap-3 select-none sm:grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
-        <Card />
+        <Card setFavorites={(ride) => handleClick(ride)}/>
       </div>
     </div>
   )
