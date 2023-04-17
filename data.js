@@ -1,6 +1,7 @@
 let disneyRides = [
   {
     id: 1,
+    img: "/../../public/Disney/astro-orbiter-00.webp",
     name:"Astro Orbiter",
     category: "ride",
     description: "Rockets revolving around a central axis",
@@ -378,6 +379,7 @@ let disneyRides = [
   },
   {
     id: 30,
+    img: "",
     name:"Under the Sea - Journey of The Little Mermaid",
     category: "ride",
     description: "Track ride in the dark",
