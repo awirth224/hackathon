@@ -1,14 +1,13 @@
 import Link from "next/link"
 
-const Header = ({ favorites }) => {
-  console.log('HEADER PROPS', favorites)
+const Header = () => {
 
   return (
     <header className="flex justify-between items-center p-5 sticky top-0 bg-gray-400">
       <Link href="/">
         <h1 className="text-3xl">Disney Made Easy</h1>
       </Link>
-      <Link href={{ pathname:"/favorites", query: favorites }}>
+      <Link href="/favorites">
         <img 
           src="/headshot.png"
           alt="user-image" 

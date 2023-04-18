@@ -1,22 +1,24 @@
 import Card from '@/components/Card'
-import Header from '@/components/Header'
-import Head from 'next/head'
-import { useState } from 'react'
+import disneyRides from '../../data';
 
-export default function Attractions() {
-  const [favorites, setFavorites] = useState([])
-  const handleClick = (ride) => setFavorites([...favorites, ride])
+
+export default function Attractions({ addToFavorites }) {
+
+  const allRides = disneyRides.map(ride => {
+    return (
+      <Card 
+        name={ride.name} 
+        description={ride.description} 
+        location={ride.location} 
+        key={ride.id}
+        addToFavorites={() => addToFavorites(ride)}
+      />
+    )
+  })
+
   return (
-    <div>
-      <Head>
-        <title>Disney Made Easy</title>
-        <meta name='description' content='Genereate Next App' />
-        <link rel='icon' href='/favicon.ico' />
-      </Head>
-      <Header favorites={favorites} />
       <div className="bg-gray-700 text-gray-200 p-5 place-items-center gap-3 select-none sm:grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
-        <Card setFavorites={(ride) => handleClick(ride)}/>
+        {allRides}
       </div>
-    </div>
   )
 }

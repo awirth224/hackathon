@@ -1,25 +1,21 @@
-import Header from '@/components/Header'
-import Head from 'next/head'
-import { useState } from 'react'
-import { useRouter } from "next/router";
+import Card from "@/components/Card"
 
+export default function Favorites({ favorites }) {
 
-export default function Favorites() {
-  const router = useRouter();
-  const query = router.query;
-  console.log('FAVORITES', query)
-  // const [favorites, setFavorites] = useState(query)
+  const favoriteRides = favorites.map(ride => {
+    return (
+      <Card 
+        name={ride.name} 
+        description={ride.description} 
+        location={ride.location} 
+        key={ride.id}
+      />
+    )
+  })
 
-
-  
   return (
-    <div>
-      <Head>
-        <title>Disney Made Easy</title>
-        <meta name='description' content='Genereate Next App' />
-        <link rel='icon' href='/favicon.ico' />
-      </Head>
-      <Header/>
-  </div>
+    <div className="bg-gray-700 text-gray-200 p-5 place-items-center gap-3 select-none sm:grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
+      {favoriteRides}
+    </div>
   )
 }
